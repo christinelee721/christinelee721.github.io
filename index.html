@@ -1,1 +1,123 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Christine H. Lee, MD, MPH — Rheumatology & Reproductive Immunology</title>
+  <meta name="description" content="Expert care in arthritis, autoimmune disease, and reproductive immunology — supporting fertility, pregnancy, and long‑term health for patients with autoimmune conditions." />
+  <style>
+    :root{
+      --bg:#ffffff; --ink:#0b0f14; --muted:#6b7280; --line:#e5e7eb; --accent:#111827;
+    }
+    @media (prefers-color-scheme: dark){
+      :root{ --bg:#0b0f14; --ink:#eef2f8; --muted:#a1a9b6; --line:#1f2937; --accent:#f9fafb; }
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0; background:var(--bg); color:var(--ink); font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji"; line-height:1.6}
+    a{color:var(--accent); text-decoration:none}
+    a:hover{text-decoration:underline}
+
+    /* --- Layout inspired by kathrynpreston.com: clean, center‑aligned hero, airy spacing, large type, slim nav --- */
+    .wrap{max-width:1040px; margin:0 auto; padding:28px}
+    .topnav{display:flex; justify-content:space-between; align-items:center; gap:16px}
+    .navlinks{display:flex; gap:18px; font-size:.98rem}
+    .navlinks a{opacity:.85}
+    .navlinks a:hover{opacity:1}
+
+    .hero{padding:10vh 0 8vh; text-align:center}
+    h1{font-size:clamp(2rem,4.2vw,3.4rem); line-height:1.1; margin:0}
+    .sub{margin-top:8px; color:var(--muted); font-size:clamp(1rem,1.2vw+0.6rem,1.25rem)}
+    .tagline{margin:22px auto 0; max-width:820px; font-size:clamp(1rem,1.1vw+0.7rem,1.2rem)}
+
+    .cta-row{margin-top:26px; display:flex; gap:12px; justify-content:center; flex-wrap:wrap}
+    .btn{border:1px solid var(--ink); padding:12px 16px; border-radius:999px; display:inline-flex; align-items:center; gap:8px; font-weight:600}
+    .btn.primary{background:var(--ink); color:var(--bg)}
+    .btn:hover{opacity:.92; text-decoration:none}
+
+    .section{padding:56px 0; border-top:1px solid var(--line)}
+    .section h2{font-size:clamp(1.3rem,1.5vw+1rem,2rem); margin:0 0 12px}
+    .lead{color:var(--muted); max-width:820px}
+
+    .grid{display:grid; gap:26px}
+    @media(min-width:900px){ .grid{grid-template-columns: 2fr 1fr} }
+    .card{padding:20px; border:1px solid var(--line); border-radius:14px; background:transparent}
+
+    ul.clean{margin:0; padding-left:18px}
+    footer{padding:32px 0; color:var(--muted); border-top:1px solid var(--line); text-align:center; font-size:.95rem}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <nav class="topnav" aria-label="Primary">
+      <div style="font-weight:700">CHL</div>
+      <div class="navlinks">
+        <a href="#about">About</a>
+        <a href="#care">Care Focus</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <header class="hero" aria-label="Hero">
+      <h1>Christine H. Lee, MD, MPH</h1>
+      <div class="sub">Rheumatology &amp; Reproductive Immunology • Beverly Hills, CA</div>
+      <p class="tagline"><strong>Expert care in arthritis, autoimmune disease, and reproductive immunology</strong> — supporting fertility, pregnancy, and long‑term health for patients with autoimmune conditions.</p>
+      <div class="cta-row">
+        <a class="btn primary" href="#contact">Request an Appointment</a>
+        <a class="btn" href="#about">Learn More</a>
+      </div>
+    </header>
+
+    <section id="about" class="section">
+      <div class="grid">
+        <div class="card">
+          <h2>About Dr. Lee</h2>
+          <p>Dr. Christine Lee is a board‑certified rheumatologist dedicated to helping patients with autoimmune diseases live active, fulfilling lives. A lifelong ballet dancer, she understands the importance of mobility and the impact when pain or stiffness gets in the way. Her empathy is shaped by personal experience—her father contracted polio as a child—giving her unique insight into the challenges of chronic illness.</p>
+          <p>Beyond arthritis and autoimmune care, Dr. Lee focuses on <strong>reproductive immunology</strong>, guiding patients through fertility, pregnancy, and postpartum health when autoimmune conditions are involved. She combines advanced training from Stanford University with a warm, personalized approach, and serves as co‑investigator on numerous clinical trials while speaking nationally on lupus, arthritis, and patient care.</p>
+        </div>
+        <aside class="card">
+          <h2>Credentials</h2>
+          <ul class="clean">
+            <li>Board‑certified in Rheumatology &amp; Internal Medicine</li>
+            <li>Fellowship: Stanford University (Immunology &amp; Rheumatology)</li>
+            <li>MD/MPH: University of Texas, San Antonio</li>
+            <li>BA: Washington University in St. Louis</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="care" class="section">
+      <div class="grid">
+        <div class="card">
+          <h2>Care Focus</h2>
+          <ul class="clean">
+            <li>Arthritis &amp; autoimmune disease management (RA, lupus, psoriatic arthritis)</li>
+            <li>Fertility &amp; pregnancy with autoimmune conditions (reproductive immunology)</li>
+            <li>Musculoskeletal ultrasound–guided evaluation</li>
+            <li>Long‑term, relationship‑centered care</li>
+          </ul>
+        </div>
+        <aside class="card">
+          <h2>Location</h2>
+          <p>Beverly Hills, CA</p>
+          <p><em>Telehealth options available.</em></p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="card">
+        <h2>Get in Touch</h2>
+        <p>Email: <a href="mailto:info@example.com">info@example.com</a> &nbsp;•&nbsp; Phone: <a href="tel:+10000000000">(000) 000‑0000</a></p>
+        <p>For clinical trials or referrals, please include relevant records if available.</p>
+      </div>
+    </section>
+
+    <footer>
+      &copy; <span id="year"></span> Christine H. Lee, MD, MPH
+    </footer>
+  </div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+</body>
+</html>
